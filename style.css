@@ -7,3 +7,39 @@ h1 {
     border: 1px solid red;
 
 }
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.leftdiv {
+    padding: 5px;
+    border: 1px solid green;
+    height: 100px;
+    position: absolute;
+    width: 45%;
+    left: 0px;
+    top: 0px;
+}
+
+.rightdiv {
+    padding: 15px;
+    border: 1px solid yellow;
+    height: 100px;
+    position: absolute;
+    width: 45%;
+    right: 0px;
+    top: 0px;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.pv4 {
+    text-align: center;
+    width: 50%;
+}
