@@ -1,0 +1,24 @@
+.bo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.radius {
+    width: 200px;
+    border: 1px solid red;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.solid {
+    border: 1px solid blue;
+}
+
+.inputhome {
+    border: 2px solid violet;
+    border-radius: 10px;
+
+}

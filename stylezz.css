@@ -1,0 +1,24 @@
+.p1 {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+
+.p2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.img1 {
+    width: 50%;
+}
+
+.lor {
+    color: blue;
+}
+
+.prova {
+    text-decoration: line-through;
+    color: black;
+}
