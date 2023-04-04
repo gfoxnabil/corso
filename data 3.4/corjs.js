@@ -69,29 +69,114 @@
 // // 
 
 
-var x = 2;
-var y = 7;
-var z = null
-var q = null
+// var x = 2;
+// var y = 7;
+// var z = null
+// var q = null
 
 
-z = y + x;
+// z = y + x;
 
-if (z >= 100) {
-    console.log("evai")
+// if (z >= 100) {
+//     console.log("evai")
+
+// }
+
+// q = y % x;
+
+// if (q === 0) {
+//     console.log("yeee")
+
+// } else if (q === 1) {
+//     console.log("ciao")
+
+
+// } else {
+//     console.log("no")
+
+// }
+
+
+//stampare tutti i valori dell array A
+
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// for (var x = 0; x < A.length; x = x + 1) {
+//     var resto = A[x] % 2;
+//     if (resto === 0) {
+//         console.log(A[x])
+
+//     }
+
+// }
+
+//stampare i numeri pari in pozisione pari 
+
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// for (var x = 0; x < A.length; x = x + 1) {
+//     var resto = A[x] % 2;
+//     if (resto !== 0) {
+//         console.log(A[x])
+
+//     }
+
+// }
+// // tutti i numeri divizibili per tre 
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// for (var x = 0; x < A.length; x = x + 1) {
+//     var resto = A[x] % 3;
+//     if (resto === 0) {
+//         console.log(A[x])
+
+//     }
+
+// }
+
+// // stamopa tutti i numeri al contrario 
+
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// for (var x = A.length - 1; x >= 0; x = x - 1) {
+//     console.log(A[x])
+// }
+
+// // stampa solo le parole ciao
+
+// const A = ["ciao", "Lupo", "Tigre", "ciao", "cane", "gatto", "ciao", "civetta"]
+
+// for (let x = 0; x < A.length; x = x + 1) {
+//     if (A[x] === "ciao") {
+//         console.log(A[x]);
+
+//     }
+
+// }
+
+
+// // // stampa la somma di tutti i numeri
+
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// for (let x = 0; x < A.length; x++) {
+//     somma = somma + A[x];
+
+// }
+// console.log(somma);
+
+/// somma i numeri pari e le pozi pari
+let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+let somma = 0;
+
+for (let x = 0; x < A.length; x + 2) {
+    var resto = A[x] % 2;
+    if (resto === 0) {
+
+
+        somma = somma + A[x];
+
+    }
 
 }
-
-q = y % x;
-
-if (q === 0) {
-    console.log("yeee")
-
-} else if (q === 1) {
-    console.log("ciao")
-
-
-} else {
-    console.log("no")
-
-}
+console.log(somma)
