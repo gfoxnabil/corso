@@ -194,18 +194,41 @@
 
 
 /// stamppare il numero massimo e il numero minimo due blocchi diversi 
+// let A = [3, 56, 3, 5, 56, 34, 4, 5, 3, 6, 5, 532, 432];
+// let v = A[1];
+
+// for (let x = 1; x < A.length; x = x + 2) {
+//     if (A[x] < v) {
+//         v = A[x]
+//     }
+// }
+
+// console.log("Il numero massimo nell'array e' :", v);
+
+
 /// stampare numero che compare piu volte
 let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
-let v = A[0];
 
-for (let x = 0; x < A.length; x = x + 1) {
+let valore = null;
+let contatoreValoreMassimo = 0;
 
-    if (A[x] > v) {
-        v = A[x]
+
+for (let index = 0; index < A.length; index++) {
+
+    let contatore = 0;
+
+    for (let index1 = 0; index1 < A.length; index1++) {
+
+        if(A[index] == A[index1]){
+            contatore++;
+        }
 
     }
 
-
+    if(contatoreValoreMassimo < contatore){
+        valore = A[index];
+        contatoreValoreMassimo = contatore;
+    }
 }
 
-console.log("Il numero massimo nell'array è :", v);
+console.log(valore)
