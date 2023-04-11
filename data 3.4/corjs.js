@@ -234,3 +234,8 @@
 
 // copiami tutti i numeri di questo array in un altro array ma dal ultimo al primo
 let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+for (let ARR = 0; ARR < A.length; ARR++) {
+
+    console.log(A[ARR]);
+}
