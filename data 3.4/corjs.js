@@ -195,4 +195,17 @@
 
 /// stamppare il numero massimo e il numero minimo due blocchi diversi 
 /// stampare numero che compare piu volte
-// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+let v = A[0];
+
+for (let x = 0; x < A.length; x = x + 1) {
+
+    if (A[x] > v) {
+        v = A[x]
+
+    }
+
+
+}
+
+console.log("Il numero massimo nell'array è :", v);
