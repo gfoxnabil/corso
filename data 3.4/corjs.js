@@ -207,28 +207,30 @@
 
 
 /// stampare numero che compare piu volte
+//let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// let valore = null;
+// let contatoreValoreMassimo = Infinity;
+
+
+// for (let index = 0; index < A.length; index++) {
+
+//     let contatore = 0;
+
+//     for (let index1 = 0; index1 < A.length; index1++) {
+
+//         if(A[index] == A[index1]){
+//             contatore++;
+//         }
+//     }
+
+//     if(contatoreValoreMassimo > contatore){
+//         valore = A[index];
+//         contatoreValoreMassimo = contatore;
+//     }
+// }
+
+// console.log(valore)
+
+// copiami tutti i numeri di questo array in un altro array ma dal ultimo al primo
 let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
-
-let valore = null;
-let contatoreValoreMassimo = 0;
-
-
-for (let index = 0; index < A.length; index++) {
-
-    let contatore = 0;
-
-    for (let index1 = 0; index1 < A.length; index1++) {
-
-        if(A[index] == A[index1]){
-            contatore++;
-        }
-
-    }
-
-    if(contatoreValoreMassimo < contatore){
-        valore = A[index];
-        contatoreValoreMassimo = contatore;
-    }
-}
-
-console.log(valore)
