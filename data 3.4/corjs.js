@@ -441,7 +441,23 @@ function divide(a, b) {
     return result;
 }
 
+function square() {
+
+}
+
+function mod() { }
+
 function reset() {
     let data = document.getElementById("risultato")
+    let input = document.getElementById('po');
+    let input1 = document.getElementById('so');
+
+    input.value = null;
+    input1.value = null;
     data.value = null;
+}
+
+function setInput(number) {
+    let input = document.getElementById('po');
+    input.value = input.value + number.toString()
 }
