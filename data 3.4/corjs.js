@@ -232,10 +232,154 @@
 
 // console.log(valore)
 
-// copiami tutti i numeri di questo array in un altro array ma dal ultimo al primo
-let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+// // copiami tutti i numeri di questo array in un altro array ma dal ultimo al primo
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+// let B = [];
 
-for (let ARR = 0; ARR < A.length; ARR++) {
+// for (var ARR = A.length - 1; ARR >= 0; ARR = ARR - 1) {
+//     B.push(A[ARR])
 
-    console.log(A[ARR]);
+// }
+
+// console.log(B);
+
+
+// /// function
+// function prova() {
+//     let a = 8;
+//     let b = 10;
+//     let v = a + b;
+//     return v;
+// }
+// let x = prova();
+// console.log(x);
+
+// /// function 
+// function Somma(a, b) {
+
+
+//     return a + b;
+// }
+
+// let w = Somma(10, 34);
+// console.log(w);
+
+
+/// function 
+// function Somma(a, b) {
+
+
+//     return a + b;
+// }
+
+// let primo = 10;
+// let secondo = 15;
+// let w = Somma(primo, secondo);
+// console.log(w);
+
+
+/// function stampa array
+// function Somma(Ar) {
+
+//     console.log(Ar);
+// }
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// Somma(A);
+
+// console.log('ciao');
+
+// console.log('boh');
+
+// /// function stampa array
+
+// let g = [3, 56, 3, 2, 56, 34, 2];
+
+// Somma(g);
+
+
+// scrivere una funzione che prende in input un numero , se il numero e pari lo stampa altrementi non fa nulla 
+
+// function pari(A) {
+
+
+//     for (var x = 0; x < A.length; x = x + 1) {
+//         var res = A[x] % 2;
+//         if (res == 0) {
+//             console.log(A[x])
+
+//         }
+//     }
+// }
+
+// let A = [3, 56, 3, 2, 56, 34, 4, 2, 3, 1, 5, 532, 432];
+
+// pari(A)
+
+// let W = [39, 5, 2, 4, 6, 8, 10];
+
+// pari(W)
+
+// scrivere  
+// 
+// function pari(A) {
+//     var res = 10;
+//     if (res < A) {
+//         console.log(A)
+
+//     }
+
+// }
+
+// pari(11);
+// pari(5);
+
+// // input html con java
+// function ciao() {
+//     let input = document.getElementById('po');
+//     text(input.value)
+// }
+
+// function text(x) {
+//     let d = ' ciao'
+//     console.log(x + d);
+// }
+
+// input html con js
+// function ciao() {
+//     let input = document.getElementById('po');
+//     let input1 = document.getElementById('so');
+
+//     somma1(input.value, input1.value)
+// }
+
+// function text(x) {
+
+//     console.log(x);
+// }
+// function somma1(a, b) {
+//     let A = parseInt(a)
+//     let B = parseInt(b)
+//     if (A > B) {
+//         console.log(A);
+//     } else {
+//         console.log(B);
+//     }
+
+// }
+/// calcolo 
+function ciao() {
+    let input = document.getElementById('po');
+    let input1 = document.getElementById('so');
+
+    somma1(input.value, input1.value)
+}
+
+
+function somma1(a, b) {
+    let A = parseInt(a)
+    let B = parseInt(b)
+    let x = A - B;
+    console.log(x);
+
 }
