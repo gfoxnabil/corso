@@ -451,7 +451,7 @@ function square(a) {
     return Math.sqrt(a)
 }
 
-function resto(a) {
+function resto(a, b) {
     return a % b;
 }
 
