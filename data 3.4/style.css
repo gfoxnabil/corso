@@ -22,3 +22,56 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.uno {
+    justify-content: space-between;
+
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.due {
+    justify-content: space-between;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tre {
+    justify-content: space-between;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.quatro {
+    justify-content: space-between;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.uno button {
+    width: 25%;
+}
+
+.due button {
+    width: 25%;
+}
+
+.tre button {
+    width: 25%;
+}
+
+.quatro button {
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.gg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
