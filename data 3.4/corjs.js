@@ -441,7 +441,7 @@ function divide(a, b) {
     return result;
 }
 
-function clear() {
+function reset() {
     let data = document.getElementById("risultato")
     data.value = null;
 }
