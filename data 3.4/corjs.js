@@ -385,6 +385,34 @@
 // }
 
 
+function operation(operazione) {
+    let input = document.getElementById('po');
+    let input1 = document.getElementById('so');
+
+    const a = parseInt(input.value)
+    const b = parseInt(input1.value)
+
+
+    switch (operazione) {
+        case "somma":
+            add(a, b)
+            break;
+        case "divisione":
+            divide(a, b)
+            break;
+        case "moltiplicazione":
+            multiply(a, b)
+            break;
+        case "sottrazione":
+            subtract(a, b)
+            break;
+        default:
+            break;
+    }
+
+}
+
+
 function add(a, b) {
     const result = a + b;
 
