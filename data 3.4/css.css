@@ -1,0 +1,28 @@
+.bodyy {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    right: 500px;
+    margin-left: 100px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.box {
+    display: flex;
+    width: 1000px;
+    right: 1000px;
+    flex-direction: column;
+
+    border-radius: 5px;
+}
+
+.add {
+    right: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
