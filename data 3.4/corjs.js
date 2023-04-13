@@ -368,18 +368,59 @@
 
 // }
 /// calcolo 
-function ciao() {
-    let input = document.getElementById('po');
-    let input1 = document.getElementById('so');
+// function ciao() {
+//     let input = document.getElementById('po');
+//     let input1 = document.getElementById('so');
 
-    somma1(input.value, input1.value)
+//     somma1(input.value, input1.value)
+// }
+
+
+// function somma1(a, b) {
+//     let A = parseInt(a)
+//     let B = parseInt(b)
+//     let x = A - B;
+//     console.log(x);
+
+// }
+
+
+function add(a, b) {
+    const result = a + b;
+
+    console.log(result);
+
+    return result
 }
 
+function multiply(a, b) {
 
-function somma1(a, b) {
-    let A = parseInt(a)
-    let B = parseInt(b)
-    let x = A - B;
-    console.log(x);
+    const result = a * b;
 
+    console.log(result);
+
+    return result;
 }
+
+function subtract(a, b) {
+
+    const result = a - b;
+
+    console.log(result);
+
+    return result;
+}
+
+function divide(a, b) {
+
+    if (b === 0) {
+        return null;
+    }
+
+    const result = a / b;
+
+    console.log(result);
+
+    return result;
+}
+
