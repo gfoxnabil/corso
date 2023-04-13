@@ -392,63 +392,55 @@ function operation(operazione) {
     const a = parseInt(input.value)
     const b = parseInt(input1.value)
 
+    let risultato = 0;
 
     switch (operazione) {
         case "somma":
-            add(a, b)
+            risultato = add(a, b)
             break;
         case "divisione":
-            divide(a, b)
+            risultato = divide(a, b)
             break;
         case "moltiplicazione":
-            multiply(a, b)
+            risultato = multiply(a, b)
             break;
         case "sottrazione":
-            subtract(a, b)
+            risultato = subtract(a, b)
             break;
         default:
             break;
     }
+
+    let resultInput = document.getElementById("risultato");
+    resultInput.value = risultato;
 
 }
 
 
 function add(a, b) {
     const result = a + b;
-
-    console.log(result);
-
     return result
 }
 
 function multiply(a, b) {
-
     const result = a * b;
-
-    console.log(result);
-
     return result;
 }
 
 function subtract(a, b) {
-
     const result = a - b;
-
-    console.log(result);
-
     return result;
 }
 
 function divide(a, b) {
-
     if (b === 0) {
         return null;
     }
 
     const result = a / b;
-
-    console.log(result);
-
     return result;
 }
 
+function clear() {
+
+}

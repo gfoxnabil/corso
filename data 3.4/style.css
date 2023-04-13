@@ -1,28 +1,24 @@
 .bodyy {
     display: flex;
     flex-direction: column;
-    width: 1000px;
-    right: 500px;
-    margin-left: 100px;
-    background-color: gray;
-    padding: 5px;
-    border-radius: 20px;
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid grey
 }
 
 
 .box {
     display: flex;
-    width: 1000px;
-    right: 1000px;
     flex-direction: column;
-
+    gap: 10px;
     border-radius: 5px;
+    padding: 15px;
+
 }
 
 .add {
-    right: 2000px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
