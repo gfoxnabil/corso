@@ -393,6 +393,7 @@ function operation(operazione) {
     const b = parseInt(input1.value)
 
     let risultato = 0;
+    let clears = 0;
 
     switch (operazione) {
         case "somma":
@@ -407,12 +408,18 @@ function operation(operazione) {
         case "sottrazione":
             risultato = subtract(a, b)
             break;
+        case "clear":
+            risultato = clear(a, b)
+            break;
         default:
             break;
     }
 
     let resultInput = document.getElementById("risultato");
     resultInput.value = risultato;
+
+    let cleartInput = document.getElementById("");
+    cleartInput.value = clears;
 
 }
 
@@ -442,5 +449,7 @@ function divide(a, b) {
 }
 
 function clear() {
+    const result: null;
+    return result;
 
 }
