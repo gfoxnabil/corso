@@ -389,6 +389,7 @@ function operation(operazione) {
     let input = document.getElementById('po');
     let input1 = document.getElementById('so');
 
+
     const a = parseInt(input.value)
     const b = parseInt(input1.value)
 
@@ -406,6 +407,11 @@ function operation(operazione) {
             break;
         case "sottrazione":
             risultato = subtract(a, b)
+        case "resto":
+            risultato = resto(a, b)
+            break;
+        case "radice":
+            risultato = square(a)
             break;
         default:
             break;
@@ -441,11 +447,13 @@ function divide(a, b) {
     return result;
 }
 
-function square() {
-
+function square(a) {
+    return Math.sqrt(a)
 }
 
-function mod() { }
+function resto(a) {
+    return a % b;
+}
 
 function reset() {
     let data = document.getElementById("risultato")
